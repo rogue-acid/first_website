@@ -1,0 +1,55 @@
+h1 {
+  color: black;
+  font-family: verdana;
+  font-size: 300%;
+  padding-left: 37%;
+}
+
+
+p {
+  color: black;
+  font-family: courier;
+  font-size: 160%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+
+
+body {
+    background-color: lightblue;
+	padding-left: 0.5%;
+}
+
+
+img {
+	width: 400px;
+	height: 300px;
+}
+
+
+#left_image {
+	padding-left: 350px;
+	padding-top: 20px;
+}
+
+
+#right_image {
+	padding-left: 400px;
+}
+
+div {
+  position: relative;
+  animation-name: title_bar_slide;
+  animation-duration: 16s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes title_bar_slide {
+  0%   {left:0px; top:0px;}
+  25%  {left:-600px; top:0px;}
+  75%  {left:600px; top:0px;}
+  100% {left:0px; top:0px;}
+}
